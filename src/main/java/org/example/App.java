@@ -24,11 +24,9 @@ public class App
             System.out.printf("The subtotal is %.2f\n",subtotal);
             System.out.printf("The tax is %.2f\n",tax);
             System.out.printf("The total is %.2f\n",total);
+            System.exit(0);
         }
-        else
-        {
             Double total = Double.parseDouble(str1);
             System.out.printf("The total is %.2f",total);
-        }
     }
 }
